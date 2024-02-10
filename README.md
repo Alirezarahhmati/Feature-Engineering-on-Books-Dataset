@@ -1,18 +1,16 @@
-﻿Data Science
+﻿# Data Science - Feature Engineering
 
-Project 03
+Name : Alireza Rahmati 
 
-Name : Alireza Rahmati Student Id : 400222038
-
-Introduction
+## Introduction
 
 Welcome to our data science adventure where we delve into the world of books to uncover insights and build a predictive model. In this project, we explore a diverse dataset filled with information about books, including titles, authors, editions, reviews, synopses, genres, and more.
 
-Objective
+### Objective
 
 Our goal is to construct a powerful Random Forest model capable of predicting and understanding various aspects related to books. We aim to unearth patterns, preferences, and trends hidden within the data, shedding light on the intricate world of literature.
 
-Journey Highlights
+## Journey Highlights
 
 1. **Exploratory Data Analysis (EDA):** We kick off by diving into the dataset, gaining insights into book genres, authors, and other key features.
 1. **Data Preprocessing:** Before feeding our data into the model, we preprocess it by handling missing values, encoding categorical variables, normalizing numerical features, and preparing text data for analysis.
@@ -22,11 +20,11 @@ Journey Highlights
 4. **Evaluation:** Rigorous evaluation using metrics like Mean Squared Error (MSE) ensures that our model's predictions align with actual outcomes.
 4. **Documentation:** Throughout the journey, we document our process, decisions, and insights, providing a valuable resource for reproducibility and understanding the intricacies of the project.
 
-Impact
+### Impact
 
 By project completion, our model not only predicts with accuracy but also reveals the factors influencing the world of books. Whether uncovering literary gems, understanding reader preferences, or exploring the impact of authors on ratings, our model is poised to unveil the magic within the dataset's pages.
 
-Preprocessing
+## Preprocessing
 
 In the initial phase of our project, we meticulously prepared our dataset for subsequent analysis. Our first step involved thorough cleaning and preprocessing to ensure the data's readiness for the subsequent stages.
 
@@ -52,7 +50,7 @@ Let's delve into the descriptive statistics of our dataset to gain a comprehensi
 
 ![](Aspose.Words.0eabdeab-87ae-4174-9332-733320806535.002.png)
 
-Visualizing
+## Visualizing
 
 I'm eager to explore the distribution of prices in our dataset.
 
@@ -94,7 +92,7 @@ Dive into the fascinating world of book editions with the 'Grouped Edition Distr
 
 ![](Aspose.Words.0eabdeab-87ae-4174-9332-733320806535.014.jpeg)
 
-Feature Engineering
+## Feature Engineering
 
 In the realm of feature engineering, we embarked on a journey to enhance the richness and predictive power of our dataset. Faced with challenges such as the disparate formats of the 'Reviews' and 'Rate' columns, we cleverly devised a solution—a new column named 'popularity.' This innovative addition combines both the rating and the number of reviews, presenting a more meaningful metric that encapsulates the true essence of a book's popularity.
 
@@ -106,7 +104,7 @@ In tackling the challenge of large textual data within the 'Synopsis' column, we
 
 Throughout this feature engineering process, our goal was to not just preprocess the data but to sculpt it into a form that resonates with the intricate nature of literature. These thoughtful enhancements pave the way for a more nuanced and powerful predictive model, one that is attuned to the subtleties and richness of the literary world.
 
-Conclusion
+## Conclusion
 
 In concluding our data science odyssey, the obtained results offer a comprehensive view of our efforts in preparing and training the model. The training mean squared error (MSE) stands at 68,924, while the test MSE is recorded at 309,515.
 
